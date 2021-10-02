@@ -1,0 +1,467 @@
+/* slider css start */
+.carousel-inner{
+     width: 100%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 500px;
+}
+/* slider css end */
+/* About css start */
+#about{
+    display: flex;
+    padding-top: 30px;
+    margin-top: 5px;
+
+}
+#about .about-info{
+    margin-top: 60px;
+    width: 40%;
+    height: 400px;
+}
+#about .about-image{
+    width: 60%;
+    height: 500px;
+}
+#about .about-info h1{
+    padding-top: 40px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#about .about-info p{
+    margin-left: 30px;
+    text-transform: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+#about .about-info form button{
+    padding: 5px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    font-weight: 500;
+}
+#about .about-image img{
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+}
+/* About css end */
+/* Header css start */
+.navbar-up{
+    background-color: white;
+    padding: 8px;
+}
+.navbar-up .logo{
+    margin-left:50px;
+}
+.navbar-up .logo img{
+    height: 55px;
+    width: 120px;
+}
+.navbar-up .social{
+    text-align: right;
+    padding-top: 8px;
+}
+.navbar-up .social img{
+    height: 35px;
+    width: 300px;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+.navbar ul{
+   margin-left: -22px;
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+    margin-left:30px;
+    margin-top: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: orange;
+}
+/* header css end */
+/* footer css start */
+.footer{
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.footer .company{
+    padding-top: 5px;
+    color: white;
+}
+.footer .product{
+    padding-top: 5px;
+    color: white;
+}
+.footer .quick-links{
+    padding-top: 5px;
+    color: white;
+}
+.footer .contact{
+    padding-top: 5px;
+    color: white;
+}
+.company h2{
+    margin-left: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.company p{
+    margin-left: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 10px; 
+}
+.product h2{
+    margin-left: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quick-links h2{
+    margin-left: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact h2{
+    margin-left: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product ul{
+    margin-left: -15px;
+}
+.product ul li{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.quick-links ul li{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.quick-links ul{
+    margin-left: -15px;
+}
+.contact ul li{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.contact ul{
+    margin-left: -15px;
+}
+.footer-down{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+}
+.footer-down h5{
+    color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.footer-down img{
+    height: 30px;
+    width: 280px;
+    margin-top: 8px;
+    
+}
+.footer-down .social-icon{
+    text-align: right;
+}
+/* footer css end*/
+/* Gallery css start here */
+#gallary{
+    width:100%;
+    padding: 20px;
+}
+#gallary .gallary-image{
+    height: 350px;
+    width: 270px;
+    margin-top: 25px;
+    border: 1px solid rgb(143, 139, 139);
+    padding: 2px;
+}
+#gallary h1{
+    text-align: center;
+    font-weight: 600;
+}
+#gallary .gallary-image img{
+    height: 265px;
+    width: 265px;
+}
+.gallary-detains{
+    padding: 8px;
+}
+/* gallery css end */
+/* service css start */
+ #service{
+    width: 100%;
+    padding: 30px;
+}
+#service h1{
+    text-align: center;
+    font-weight: 600;
+
+}
+#service p{
+    text-align: center;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'calibari';
+}
+.logo-image{
+    height: 200px;
+    width: 200px;
+    margin-top: 35px;
+}
+.logo-image img{
+    height: 200px;
+    width: 200px;
+}
+.service-detains{
+    padding: 5px;
+}
+.service-detains h1{
+    text-align: center;
+}
+/* service css end */
+/* login css start here */
+  .wrapper__area{
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10px;
+    transform: translateX(23%);
+    margin-bottom: 10px;
+  }
+  .forms__area{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    margin-right: 10px;
+  }
+  .forms__area form{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    transition: 1.2s cubic-bezier(0.18, 0.02, 0.36, 0.96);
+    opacity: 1;
+  }
+  form .form__title{
+    font-size: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .forms__area input{
+    position: relative;
+    outline: none;
+    width: 80%;
+    border: none;
+    padding: 15px;
+    padding-left: 5px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+  }
+  .forgot_password{
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+    transition: 0.3s ease-in-out;
+    font-weight: 550;
+  }
+  button{
+    position: relative;
+    width: 45%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 16px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+  }
+  .aside__area{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    opacity: 1;
+  }
+  .aside__area > div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    transition: 1.2s cubic-bezier(0.18, 0.02, 0.36, 0.96);
+    margin-top: 30px;
+  }
+  .aside__area > div h4{
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 35px;
+    position: absolute;
+    left: 24px;
+  }
+  .aside__area > div img{
+    width: 100%;
+    pointer-events: none;
+  }
+  .aside__area > div p{
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .aside__area  button{
+    width: 60%;
+    margin: auto;
+    background-color: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 14px 0;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+/* end login */
+#blog{
+    /* background-color: brown; */
+    /* height: 800px; */
+    width: 100%;
+    padding: 20px;
+} 
+#blog .blog-image{
+    /* height: 320px; */
+    width: 330px;
+    padding-top: 20px;
+    /* margin: 10px; */
+    
+}
+#blog .blog-image img{
+    height: 300px;
+    width: 300px; 
+}
+#blog h1{
+    text-align: center;
+    font-weight: 600;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    
+}
+.blog-details p{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.blog-details{
+background-color: rgb(178, 224, 125);
+padding-top: 10px;
+height: 250px;
+}
+.blog-details h3{
+    padding-left: 5px;
+}
+#testimonial{
+    /* height: 500px; */
+    /* width: 100%; */
+    background-color: rgb(219, 215, 215);
+    /* opacity: 0.2; */
+    padding: 20px;
+}
+#testimonial h1{
+    text-align: center;
+    font-weight: 600;
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+.testimonial-image img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+.testimonial-image{
+    background-color: white;
+    /* height: 400px; */
+    text-align: center;
+    padding: 10px;
+}
+.detail-para{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.name{
+    /* text-align: center; */
+    margin-left: 30px;
+
+}
+#contact{
+    text-align: center;
+    padding: 20px;
+    
+}
+.contact-form{
+    text-align: left;
+    padding: 15px;
+    background-color: rgb(228, 243, 198);
+
+}
+.contact-form h3{
+    /* text-align: center; */
+    font-weight: 400;
+}
+.contact-me{
+    text-align: left;
+    /* background-color: rgb(235, 235, 198); */
+    /* padding: 10px; */
+}
